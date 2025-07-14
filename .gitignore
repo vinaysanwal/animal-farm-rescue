@@ -1,0 +1,55 @@
+# === frontend-app IGNORE RULES ===
+# Node dependencies
+/frontend-app/node_modules/
+
+# Vite build output
+/frontend-app/dist/
+/frontend-app/build/
+/frontend-app/.vite/
+
+# TypeScript build info
+/frontend-app/*.tsbuildinfo
+
+# Env files
+/frontend-app/.env
+/frontend-app/.env.*.local
+!/frontend-app/.env.example
+
+# Log files
+/frontend-app/npm-debug.log*
+/frontend-app/yarn-debug.log*
+/frontend-app/yarn-error.log*
+/frontend-app/pnpm-debug.log*
+/frontend-app/*.log
+
+# Coverage and testing
+/frontend-app/coverage/
+/frontend-app/.nyc_output/
+/frontend-app/jest.log
+
+# Editor configs
+/frontend-app/.vscode/
+/frontend-app/.idea/
+/frontend-app/*.suo
+/frontend-app/*.njsproj
+/frontend-app/*.sln
+
+# System
+/frontend-app/.DS_Store
+
+# Optional: Uncomment if you don't want to commit lock files
+# /frontend-app/package-lock.json
+# /frontend-app/yarn.lock
+# /frontend-app/pnpm-lock.yaml
+
+# === BACKEND IGNORE RULES (optional) ===
+# Add backend/node_modules/, __pycache__, etc., if needed.
+
+
+# === SANITY CMS ===
+animal-farm-cms/node_modules/
+animal-farm-cms/.sanity/
+animal-farm-cms/dist/
+animal-farm-cms/build/
+animal-farm-cms/.env.local
+animal-farm-cms/.env
